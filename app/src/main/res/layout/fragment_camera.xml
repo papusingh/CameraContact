@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_root"
+    style="@style/ViewMatch">
+
+    <Button
+        android:id="@+id/open_cam"
+        style="@style/ViewMatchWidth"
+        android:text="@string/open_cam"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/cam_image"
+        style="@style/ViewMatch"
+        android:layout_margin="@dimen/padding_small"
+        android:layout_above="@id/open_cam"
+        android:contentDescription="@string/cam_image_desc"/>
+
+</RelativeLayout>

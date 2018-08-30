@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ViewMatchWidth"
+    android:padding="@dimen/padding_small">
+
+    <Button
+        android:id="@+id/call_btn"
+        style="@style/ViewWrap"
+        android:text="@string/call_btn_text"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/contact_name"
+        style="@style/ViewMatchWidth"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/text_medium"
+        android:textStyle="bold"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/call_btn"/>
+
+    <TextView
+        android:id="@+id/contact_num"
+        style="@style/ViewMatchWidth"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/text_small"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/call_btn"
+        android:layout_below="@id/contact_name"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CameraContact</string>
+    <string name="open_cam">Open Camera</string>
+    <string name="cam_image_desc">Image taken by camera</string>
+    <string name="cam_perm_denied">Camera permission denied</string>
+    <string name="call_perm_denied">Call permission denied</string>
+    <string name="con_perm_denied">Contact permission denied</string>
+    <string name="call_btn_text">Call</string>
+</resources>
